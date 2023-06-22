@@ -28,10 +28,9 @@ with open("Maxms.txt",'w') as file:
 with open("Minms.txt",'w') as file:
     file.write("1")
 messagebox.showinfo("帮助PyClient","目前开发团队只有1个人，所以我由衷的请有Python开发经验的程序员加入我们.\n"
-                    "我们收费吗？PyClient是完全免费的，代码开源。遇到要收费的PyClient,你大概是遇到了拿我们公开的源代码收费的人\n"
-                    "所以，下载PyClient请认准github:https://github.com/12hey/PyClient.git(外国网点，连接稍慢)")
-vb = pyautogui.prompt(text='请选择模式：\n模式1，键盘连点.\n模式2,鼠标连点,并使用假冒dbc绕过反作弊.\n模式3,伪装成神桥的自动'
-                           '搭路(1 or 2 or 3)\n模式4：杀戮光环\n模式5：预设配置\n模式6：自动输入，防挂机踢出',title='strAC_Lunch_Run', default='')
+                    "我们收费吗？PyClient是完全免费的，代码开源。下载PyClient请认准官网github:https://github.com/12hey/PyClient.git(外国网点，连接稍慢)")
+vb = pyautogui.prompt(text='请选择模式：\n模式1，键盘连点.\n模式2,鼠标连点,并使用假冒dbc绕过反作弊.\n模式3,AC'
+                           '搭路\n模式4：杀戮光环\n模式5：预设配置\n模式6：自动输入，防挂机踢出',title='strAC_Lunch_Run', default='')
 vb = int(vb)
 
 def key():
