@@ -5,7 +5,7 @@ at 2023/6/30 15:23,China PyClient V4.08 Update the V4.09!
 
 
 4.09 Update：
-1、update architecture up to Decentralized architecture，can be translated to English as "enabling more functionalities with fewer resources compared to before.
+1、update architecture up to Decentralized architecture，enabling more functionalities with fewer resources compared to before.
 2、Significant GUI update, complete rewrite.
 3、Function update, adding AimBot module, and modifying the operation of the KillAura module.
 4、Added a concise and clear function menu and stop menu.
